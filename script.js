@@ -1,9 +1,10 @@
 function computerPlay(){
-    return computerSelection(Math.random)
+    let computerSelection = ["Rock", "Paper", "Scissors"];
+    return computerSelection[Math.floor(Math.random()*computerSelection.length)];
 }
 
 function playRound(playerSelection, computerSelection) {
-    return " "
+    
 }
 
 function game(playRound){
